@@ -24,28 +24,28 @@ def power(num, x=1):
     result = 1
     for i in range(x):
         result = result * num
-        return result
+    return result
 
 
 # TODO: function with variable number of arguments
-def multi_add(*args):
+def multi_add(*args): # *  pass variable of arguments
     result = 0
     for x in args:
         result = result + x
-        return result
+    return result
 
 
-func1()  # function run
-print(func1())  # function run
-print(func1)  # it is a variable
+    func1()  # function run
+    print(func1())  # function run
+    print(func1)  # it is a variable
 
-func2(10, 20)
-print(func2(10, 20))
-print(cube(3))  # multiply
+    func2(10, 20)
+    print(func2(10, 20))
+    print(cube(3))  # multiply
 
-print(power(2))
-print(power(2, 3))
-# print(power(x=3, num=2))
+    print(power(2))
+    print(power(2, 3))
+#print(power(x=3, num=2))
 
 
-print(multi_add(5, 10, 4))
+    print(multi_add(5, 5, 4))
