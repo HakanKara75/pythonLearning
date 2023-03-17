@@ -16,7 +16,7 @@ for entry in dirlist:
         totalbytes += filesize
 
 # create a subdirectory called "results"
-os.mkdir("results")
+os.mkdir("results") #create a directory
 
 # create the output file
 resultsfile = open("results/results.txt", "w+")
